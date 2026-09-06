@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @ecodia:brand-tokens:start */
+:root {
+  --site-ground: #65723d;
+  --site-ground-deep: #000000;
+  --site-cream: #f2f2f0;
+  --site-surface: #ffffff;
+  --site-ink: #161616;
+  --site-muted: #6f6f6f;
+  --site-line: #e6e6e4;
+  --site-radius: 0.875rem;
+  --site-heading-font: "Spectral", "Iowan Old Style", Garamond, "Times New Roman", serif;
+  --site-text-base: 100%;
+  --site-bg: #ffffff;
+  --site-fg: #161616;
+}
+/* @ecodia:brand-tokens:end */
+
+html {
+  font-size: var(--site-text-base, 100%);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--site-bg);
+  color: var(--site-fg);
+  font-family: var(--site-heading-font);
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--site-line, rgba(0, 0, 0, 0.1));
+  background: var(--site-bg);
+}
+.site-nav a {
+  color: var(--site-fg);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+.site-nav a:hover {
+  text-decoration: underline;
+}
+.site-nav a[aria-current='page'] {
+  color: var(--site-ground, var(--site-fg));
+  font-weight: 600;
+}
+.site-nav .site-nav-brand {
+  font-weight: 700;
+  margin-right: auto;
+  color: var(--site-ground, var(--site-fg));
+  font-size: 1.05rem;
+}

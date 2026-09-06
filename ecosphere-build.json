@@ -1,0 +1,83 @@
+{
+  "generator": "ecosphere-next",
+  "siteId": "eaee7b5b-ba2c-45e4-b821-61c4f82002b0",
+  "siteName": "UX Audit 2026-09",
+  "builtAt": "2026-09-06T07:04:51.855Z",
+  "sections": 9,
+  "pages": [
+    {
+      "slug": "",
+      "title": "Home",
+      "route": "/",
+      "file": "app/page.tsx",
+      "sections": 3
+    },
+    {
+      "slug": "services",
+      "title": "Services",
+      "route": "/services",
+      "file": "app/services/page.tsx",
+      "sections": 3
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "route": "/about",
+      "file": "app/about/page.tsx",
+      "sections": 3
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "route": "/contact",
+      "file": "app/contact/page.tsx",
+      "sections": 3
+    }
+  ],
+  "nav": [
+    {
+      "href": "/",
+      "label": "Home"
+    },
+    {
+      "href": "/about",
+      "label": "About"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact"
+    },
+    {
+      "href": "/services",
+      "label": "Services"
+    }
+  ],
+  "files": [
+    ".gitignore",
+    "app/_generated/section-0.tsx",
+    "app/_generated/section-1.tsx",
+    "app/_generated/section-2.tsx",
+    "app/_generated/section-3.tsx",
+    "app/_generated/section-4.tsx",
+    "app/_generated/section-5.tsx",
+    "app/_generated/section-6.tsx",
+    "app/_generated/section-7.tsx",
+    "app/_generated/section-8.tsx",
+    "app/_generated/site-nav.tsx",
+    "app/about/page.tsx",
+    "app/contact/page.tsx",
+    "app/globals.css",
+    "app/layout.tsx",
+    "app/page.tsx",
+    "app/services/page.tsx",
+    "ecosphere-build.json",
+    "next.config.mjs",
+    "package.json",
+    "postcss.config.mjs",
+    "tailwind.config.ts",
+    "tsconfig.json",
+    "vercel.json"
+  ],
+  "overlay": "https://ecosphere.ecodia.au/preview-editor.js",
+  "fingerprint": "08f9aaff4a5896966f5386475058bcb55ef1276a4db193661dc5874a87662507"
+}
